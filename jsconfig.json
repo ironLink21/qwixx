@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "checkJs": false,
+    "jsx": "react-native",
+    "sourceMap": true,
+    "sourceRoot": "./src/"
+  },
+  "exclude": [
+    "**/node_modules/*",
+    "./android/*",
+    "./ios/*"
+  ],
+  "include": [
+    "./src/**/*"
+  ]
+}
